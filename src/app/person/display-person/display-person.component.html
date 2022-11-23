@@ -1,0 +1,16 @@
+  <div class="title">
+    <h1>Display Person</h1>
+</div>
+<div *ngIf="person != null" class="container">
+    <mat-card class="card">
+        <mat-card-title>{{ person.name }}</mat-card-title>
+        <mat-card-content>
+            <p><strong>PhoneNumber:</strong> {{ person.phoneNumber }} </p>
+            <p><strong>EmailAddress:</strong> {{ person.emailAddress }} </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button routerLink="/person" mat-raised-button>Volver</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
+

@@ -1,0 +1,14 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 50%;
+  margin-top: 5px;
+  text-align: center;
+}
+.title{
+  color:cornflowerblue;
+}

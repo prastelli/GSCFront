@@ -1,0 +1,10 @@
+
+  <mat-toolbar color="primary">
+    <span>GSC-App</span>
+    <span class="example-spacer"></span>
+    User: {{jwtObject.user}}
+    Rol: {{jwtObject.rol}}
+    <button mat-icon-button class="example-icon" (click)="logout()" aria-label="Example icon-button with menu icon">
+      <mat-icon>logout</mat-icon>
+    </button>
+  </mat-toolbar>
